@@ -1,0 +1,52 @@
+.jumbotron h1{
+    color: rebeccapurple;/* 1   h1*/
+}
+.nav.d-flex.justify-content-between.mb-2 span{
+    color: rgb(8, 224, 69);/* si poteva usare .nav * {color}  nav bar*/
+}/* 2 */
+.jumbotron p a{
+    color: black;/* 3 link continua a leggere */
+}
+.blog-post:first-of-type{
+    background-color: rgb(216, 235, 212);/* 4 primo blog*/
+}
+.blog-post  hr:first-of-type {/* 5 primo hr*/
+border-color: blue;
+   
+}
+.nav.nav.d-flex.justify-content-between.mb-2 span:nth-child(even){
+    color: rgb(45, 0, 118);/* 6 link pari navbar */
+}
+.list-unstyled.mb-0:first-of-type li a {
+    color: rgb(227, 0, 113);/*7  archivio*/
+}
+.blog-post:nth-of-type(2) .blog-post-meta a {
+    color: red;}/*8 autore 2 blog*/
+
+
+.blog-post:nth-of-type(3) ul li:nth-child(2){
+    color: rgb(145, 7, 7);/*9 secondo li terzo blog*/
+}
+.float-right.mb-3.mr-3{
+    color: rgb(50, 103, 14);/*10  link torna su
+    si poteva scrivere anche   body>a:last-of-type {
+            color: red;
+        }*/
+}
+a.btn.btn-outline-secondary.disabled {
+    background-color: rgb(192, 0, 0);/*11
+    oppure     nav.blog-pagination a:last-of-type {
+            background-color: yellow;
+        }*/
+}
+.blog-footer a:nth-child(2){
+    color: red;/*12
+    oppure    footer a:nth-of-type(2) {
+            color: red;
+        }*/
+}
+
+
+
+
+
